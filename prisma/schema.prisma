@@ -1,0 +1,17 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Registration {
+  id            String   @id @default(cuid())
+  aadhaarNumber String   @unique
+  name          String
+  panNumber     String   @unique
+  createdAt     DateTime @default(now())
+}

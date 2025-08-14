@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ctl00_ContentPlaceHolder1_chkDecarationA",
+    "name": "ctl00$ContentPlaceHolder1$chkDecarationA",
+    "type": "checkbox",
+    "label": "Consent Checkbox"
+  },
+  {
+    "id": "ctl00_ContentPlaceHolder1_btnValidateAadhaar",
+    "name": "ctl00$ContentPlaceHolder1$btnValidateAadhaar",
+    "type": "submit",
+    "text": "Validate & Generate OTP"
+  }
+]
